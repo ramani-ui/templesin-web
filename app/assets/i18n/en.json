@@ -1,0 +1,9 @@
+{
+  "nav": {
+  },
+  "common": {
+	"labels": {},
+    "buttons": { },
+    "validation_messages": {   }
+  }  
+}
