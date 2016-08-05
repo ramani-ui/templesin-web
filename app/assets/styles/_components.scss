@@ -1,0 +1,16 @@
+.ti-btn-fill {
+    background-color: $ti-primary-color;
+    border: none;
+    color: #ffffff;
+    font-size: 15px;
+    &:hover{
+        color: #ffffff;
+        background-color: lighten($ti-primary-color, 10%);
+    }
+}
+
+.ti-btn-outline {
+    color: $ti-primary-color;
+    font-size: 15px;
+    border: solid 1px $ti-primary-color;
+}

@@ -28,7 +28,6 @@ angular.module('app').run(['$rootScope', '$state', '$stateParams', '$location', 
     }
   });
 
-
-  $locationProvider.html5Mode(true);
+ // $locationProvider.html5Mode(true);
 
 }]);
