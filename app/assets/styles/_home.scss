@@ -60,3 +60,69 @@
         
     }
 }
+
+
+.ti-search-container{      
+    position: relative;    
+    width: 740px;
+    margin: 0 auto;
+    
+    .ti-search-sc {
+        padding: 10px;
+        background-color:rgba(29, 54, 61, 0.4);
+        border-radius: 10px;
+        border: solid 1px #ffffff;  
+        position: absolute;
+        top: 198px;
+        z-index: 1;
+        width: 100%;
+        
+        .ti-search{
+            width: 100%;
+            .selected-location{
+                background: #f9f8f8 url(../images/ti-search-marker.png) no-repeat 10px;
+                padding-left: 40px;
+                padding-top: 8px;
+                width: 132px;
+                height: 54px;
+                position: absolute;
+                span{
+                    display: block;
+                    color: #737373;
+                    &:nth-child(1){
+                        font-size: 11px;
+                    }
+                    &:nth-child(2){
+                        font-size: 15px;
+                    }
+                }
+            }
+            input{
+                width: 100%;
+                height: 54px;
+                padding-left: 142px;
+                border: 0px;
+                padding-right: 70px;
+            }
+        }
+        
+        .ti-search-btn{
+            background: $ti-primary-color url(../images/search-icon.png) no-repeat center;
+            position: absolute;
+            width: 56px;
+            height: 54px;
+            right: 10px;
+            border: none;
+            &:hover{
+                background-color: lighten($ti-primary-color, 10%);
+            }
+        }
+        
+        .ti-search-example{
+            color: #ffffff;
+            font-size: 13px;
+            padding-top: 7px;
+        }
+    }
+    
+}
