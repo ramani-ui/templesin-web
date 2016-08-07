@@ -1,0 +1,5 @@
+git status
+git add .
+git commit -m "Message"
+git pull upstream <Branch>
+git push origin <Branch>
