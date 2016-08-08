@@ -14,3 +14,22 @@
     font-size: 15px;
     border: solid 1px $ti-primary-color;
 }
+
+.view-all-btn-small{
+    background-color: $ti-primary-color;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 1px 7px;
+    &:hover{
+        color: #ffffff;
+        background-color: lighten($ti-primary-color, 10%);
+        text-decoration: none;
+    }
+}
+
+.view-details-btn-midium{
+       background-color: $ti-primary-color;
+    color: #ffffff;
+    border-radius: 3px;
+    padding: 30px 10px;  
+}
